@@ -108,6 +108,13 @@ body {
     transition: transform 0.2s;
 }
 
+.index-page section ul li:hover { /* Animación CSS sobre cada opción de la lista */
+    background-color: #99c5dd;
+    transform: scale(1.1) rotate(10deg);
+    position: relative;
+    z-index: 1;
+}
+
 .index-page section ul li img {
     width: 45%;
     height: 180px;
